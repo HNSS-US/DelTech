@@ -1,5 +1,4 @@
-# DelTech
-## Track work for CSC courses at DelTech  
+## Track work for CSC114 courses at DelTech  
 ### IDE for CSC114  
 I am about to write something that I never thought I would never write. Not in my lifetime or in the N^(N+1) lifetimes of my children. Here goes, I just installed a Microsoft Product on my Linux computer with the following commands:
 
