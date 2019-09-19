@@ -22,4 +22,3 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 2. When you are in the "Git 'Er Done" mindset. There is [w3schools.com](https://www.w3schools.com/cpp/ "w3schools.com"). A lot of code with the ability to test it from the site, however, the site is very short on explanations.  
 
 3. C++ Core [Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-abstra): This is a set of core guidelines for modern C++ (currently C++17) taking likely future enhancements and ISO Technical Specifications (TSs) into account. The aim is to help C++ programmers to write simpler, more efficient, more maintainable code.  
- 
