@@ -8,4 +8,4 @@ Escape Sequence | Name | Description
 \r | Return | Causes the cursor to go to the begining of the current line, not the next line.
 \\ | Backslash | Causes a backslash to be printed.
 \ ' | Single quote | Causes a single quotation mark to be printed.
-\ " | Double quote | Causes a double quotation mark to be printed.
+\ " | Double quote | Causes a double quotation mark to be printed.  
