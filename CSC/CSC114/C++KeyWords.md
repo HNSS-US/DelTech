@@ -17,4 +17,4 @@ char | explicit | not_eq | struct | wchar_t
 char16_t | export | nullptr | switch | while
 char32_t | extern | operator | template | xor
 class | false | or | this | xor_eq
-compl | float | or_ eq | thread_ local
+compl | float | or_ eq | thread_ local  
