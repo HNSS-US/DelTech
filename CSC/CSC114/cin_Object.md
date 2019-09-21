@@ -23,4 +23,3 @@
     - '5'  is placed into the variable *whole* since it is declared as **int**.  
     - '.7' is placed into the variable *fractional* since it is declared as **double**.  
     - '4'  is placed into the variable *letter* since it is declared as **char**.  
-    
