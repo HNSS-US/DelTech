@@ -11,7 +11,7 @@
     
     - Assume user does the following:  
     Enter an integer, a double, and a character: 5.7 4 b (Enter)
-    - These values are stored in the area of memory known as **keyboard buffer**
+    - These values are stored in the area of memory known as *keyboard buffer*
     
        Figure 3-2 The keyboard buffer  (page 89)  
 |0|1|2|3|4|5|6|7|
