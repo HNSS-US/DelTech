@@ -4,6 +4,11 @@
 ### To Investigate
 [Create Header File](http://www.cplusplus.com/forum/articles/10627/ "cplusplus.com")  
 [Naming Convention](http://manual.gromacs.org/documentation/5.1-current/dev-manual/naming.html "gromacs.org")  
+#### Functions
+[C++ Functions](https://www.tutorialspoint.com/cplusplus/cpp_functions.htm "tutorialspoint.com")  
+[Procedures and functions](http://www.dcs.bbk.ac.uk/~roger/cpp/week4.htm "Birkbeck Department of Computer Science and Information Systems")  
+[Returning multiple values from a C++ function](https://www.tutorialspoint.com/returning-multiple-values-from-a-cplusplus-function "tutorialspoint")    
+[Measure execution time of a function in C++](https://www.geeksforgeeks.org/measure-execution-time-function-cpp/ "geeksforgeeks.org")
 
 ### IDE for CSC114  
 [Microsoft Visual Studio Code](https://github.com/HNSS-US/IDEs/tree/master/Visual-Studio-Code)  
