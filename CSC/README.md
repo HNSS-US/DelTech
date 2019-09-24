@@ -1,7 +1,9 @@
+## Track work for CSC courses at DelTech  
 
-## Track work for CSC114 courses at DelTech
+### Programing Best Practices  
+[Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/ "Uncle Bob")  Blog  
 
-### To Investigate
+#### To Investigate
 [Create Header File](http://www.cplusplus.com/forum/articles/10627/ "cplusplus.com")  
 [Naming Convention](http://manual.gromacs.org/documentation/5.1-current/dev-manual/naming.html "gromacs.org")  
 #### Functions
@@ -10,7 +12,8 @@
 [Returning multiple values from a C++ function](https://www.tutorialspoint.com/returning-multiple-values-from-a-cplusplus-function "tutorialspoint")    
 [Measure execution time of a function in C++](https://www.geeksforgeeks.org/measure-execution-time-function-cpp/ "geeksforgeeks.org")
 
-### IDE for CSC114  
+### CSC114
+#### IDE for CSC114  
 [Microsoft Visual Studio Code](https://github.com/HNSS-US/IDEs/tree/master/Visual-Studio-Code)  
 
 ### Textbook for CSC114  
