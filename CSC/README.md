@@ -1,6 +1,7 @@
 ## Track work for CSC courses at DelTech  
 
 ### Programing Best Practices  
+[C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-package "C++ Core Guidelines")  
 [Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/ "Uncle Bob")  Blog  
 
 #### To Investigate
