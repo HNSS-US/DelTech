@@ -1,8 +1,24 @@
 ## Track work for CSC courses at DelTech  
 
 ### Programing Best Practices  
-[C++ Core Guidelines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#Rf-package "C++ Core Guidelines")  
 [Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/ "Uncle Bob")  Blog  
+#### Clean Code - Uncle Bob / Lesson 1  
+<a href="https://www.youtube.com/watch?v=7EmboKQH8lM&t=2108s
+" target="_blank"><img src="http://img.youtube.com/vi/7EmboKQH8lM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
+#### Clean Code - Uncle Bob / Lesson 2  
+<a href="https://www.youtube.com/watch?v=7EmboKQH8lM&t=2108s
+" target="_blank"><img src="http://img.youtube.com/vi/7EmboKQH8lM/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
+
+
+
+#### Resources for learning C++
+0. Standard C++ Foundation [Get Started](https://isocpp.org/get-started)  
+1. C++ Core [Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-abstra): This is a set of core guidelines for modern C++ (currently C++17) taking likely future enhancements and ISO Technical Specifications (TSs) into account. The aim is to help C++ programmers to write simpler, more efficient, more maintainable code.  
+2. C++ consortium(?), [cplusplus.com](http://www.cplusplus.com/ "cplusplus homepage") is a great resource for all things C++.  It has a great community and it is worth creating an account on the site. By the way, it takes less than two minutes to read their User Agreement.  
+3. At thispointer.com, there are many higher level code  [examples](https://thispointer.com/c11-tutorial/ "thispointer.com")  sans explantations.  
+4. When you are in the "Git 'Er Done" mindset. There is [tutorialspoint.com](https://www.tutorialspoint.com/cplusplus/index.htm "tutorialspoint.com"). A lot of code with the ability to test it from the site.   
 
 #### To Investigate
 ##### Data Input Validation  
