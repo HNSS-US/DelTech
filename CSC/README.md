@@ -7,8 +7,8 @@
 " target="_blank"><img src="http://img.youtube.com/vi/7EmboKQH8lM/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
 #### Clean Code - Uncle Bob / Lesson 2  
-<a href="https://www.youtube.com/watch?v=7EmboKQH8lM&t=2108s
-" target="_blank"><img src="http://img.youtube.com/vi/7EmboKQH8lM/0.jpg" 
+<a href="https://www.youtube.com/watch?v=2a_ytyt9sf8
+" target="_blank"><img src="http://img.youtube.com/vi/2a_ytyt9sf8/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
 
 
