@@ -2,18 +2,24 @@
 
 ### Programing Best Practices  
 [Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/ "Uncle Bob")  Blog  
-#### Clean Code - Uncle Bob / Lesson 1  
+##### Clean Code - Uncle Bob / Lesson 1  
 <a href="https://www.youtube.com/watch?v=7EmboKQH8lM&t=2108s
 " target="_blank"><img src="http://img.youtube.com/vi/7EmboKQH8lM/0.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
-#### Clean Code - Uncle Bob / Lesson 2  
+##### Clean Code - Uncle Bob / Lesson 2  
+<a href="https://www.youtube.com/watch?v=fX2W3nNjJIo
+" target="_blank"><img src="http://img.youtube.com/vi/fX2W3nNjJIo/0.jpg" 
+alt="Uncle Bob Clean Code" width="240" height="180" border="10" /></a>  
+
+
+
+#### Resources for learning C++  
+##### CppCon 2017: Bjarne Stroustrup “Learning and Teaching Modern C++”  
 <a href="https://www.youtube.com/watch?v=2a_ytyt9sf8
 " target="_blank"><img src="http://img.youtube.com/vi/2a_ytyt9sf8/0.jpg" 
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>  
+alt="Uncle Bob Clean Code" width="240" height="180" border="10" /></a>  
 
 
-
-#### Resources for learning C++
 0. Standard C++ Foundation [Get Started](https://isocpp.org/get-started)  
 1. C++ Core [Guidelines](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#S-abstra): This is a set of core guidelines for modern C++ (currently C++17) taking likely future enhancements and ISO Technical Specifications (TSs) into account. The aim is to help C++ programmers to write simpler, more efficient, more maintainable code.  
 2. C++ consortium(?), [cplusplus.com](http://www.cplusplus.com/ "cplusplus homepage") is a great resource for all things C++.  It has a great community and it is worth creating an account on the site. By the way, it takes less than two minutes to read their User Agreement.  
