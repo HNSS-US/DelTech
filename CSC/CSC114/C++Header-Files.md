@@ -1,7 +1,9 @@
 ### Header files used so far in class:  
 #### iostream (iostream.h)  
-The manipulators in this library affect the format of stream operations.  
-Note that iomanip contains additional manipulators.  
+The manipulators in this library affect the format of stream operations.    
+"The iostreams saves us from having to directly deal with the hardware's  
+input/output ports."  
+*(Note: the iomanip contains additional manipulators.)*  
 
 | Manipulators    | Action |
 |-----------------|:-------|
@@ -14,7 +16,7 @@ Note that iomanip contains additional manipulators.
 | ws    | Extracts whitespace characters on input stream                    |
 #### iomanip (iomanip.h)
 The manipulation in this library affect the format of steam operations. 
-Note that iostream contains additional manipulators.  
+*(Note: the iostream contains additional manipulators.)*  
 
 | Manipulators    | Action |
 |-----------------|:-------|
@@ -26,7 +28,7 @@ Note that iostream contains additional manipulators.
 This library enables you to manipulate C++ strings. Described here is a selection of  
 the functions that this library provides. In addition, you can use the following operators with  
 C++ strings: **=, +, ==, !=, <, <=, >, >=, <<, >>**  
-Note that positions within a string begin at 0.  
+*(Note: the positions within a string begin at 0.)*  
 
 | Manipulators    | Action |
 |-----------------|:-------|
