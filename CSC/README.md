@@ -1,7 +1,8 @@
 ## Track work for CSC courses at DelTech  
 
 ### Programing Best Practices  
-[Robert C. Martin (Uncle Bob)](https://blog.cleancoder.com/ "Uncle Bob")  Blog  
+#### Naming Convention: CPP Core [Guidelins](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rl-comments "isocpp.com")  
+#### The Clean Code Blog [Robert C. Martin aka Uncle Bob](https://blog.cleancoder.com/ "Uncle Bob")  
 ##### Clean Code - Uncle Bob / Lesson 1  
 <a href="https://www.youtube.com/watch?v=7EmboKQH8lM&t=2108s
 " target="_blank"><img src="http://img.youtube.com/vi/7EmboKQH8lM/0.jpg" 
@@ -27,8 +28,8 @@ alt="Bjrane Stroustrup" width="240" height="180" border="10" /></a>
 #### To Investigate
 ##### Data Input Validation  
 * [cplusplus.com forum](http://www.cplusplus.com/forum/general/64305/ "cplusplus.com")  
-[Create Header File](http://www.cplusplus.com/forum/articles/10627/ "cplusplus.com")  
-[Naming Convention](http://manual.gromacs.org/documentation/5.1-current/dev-manual/naming.html "gromacs.org")  
+
+ 
 ##### C++ Procedures and functions 
 * [tutorialspoint.com](https://www.tutorialspoint.com/cplusplus/cpp_functions.htm "tutorialspoint.com")  
 * [cplusplus.com](http://www.http://www.cplusplus.com/doc/tutorial/functions/.com/doc/tutorial/functions/ "cplusplus.com")  
