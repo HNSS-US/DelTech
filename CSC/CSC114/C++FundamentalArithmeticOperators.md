@@ -6,3 +6,6 @@ Operator | Meaning | Type | Example
 &ast;	  | Multiplication | Binary | tax = cost * rate;
 &sol;	 | Division | Binary | salePrice = original / 2;
 &percnt;	 | Modulus | Binary | remainder = value % 3;  
+
+
+
