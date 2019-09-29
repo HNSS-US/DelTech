@@ -1,5 +1,8 @@
 ## Track work for CSC courses at DelTech  
 
+### Resources
+1) Compile program in [VS Code](https://github.com/HNSS-US/Tools/blob/master/Visual-Studio-Code/C%2B%2B/Compiling-C%2B%2BIn-VSC.md "MyGitHub")
+
 ### Programing Best Practices  
 #### Naming Convention: CPP Core [Guidelins](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rl-comments "isocpp.com")  
 ##### Sections:  
