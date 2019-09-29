@@ -2,6 +2,8 @@
 
 ### Programing Best Practices  
 #### Naming Convention: CPP Core [Guidelins](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#Rl-comments "isocpp.com")  
+##### Sections:  
+1) NL: Naming and layout [rules](https://github.com/isocpp/CppCoreGuidelines/blob/master/CppCoreGuidelines.md#nl-naming-and-layout-rules "C++ NL: Naming and layout")
 #### The Clean Code Blog [Robert C. Martin aka Uncle Bob](https://blog.cleancoder.com/ "Uncle Bob")  
 ##### Clean Code - Uncle Bob / Lesson 1  
 <a href="https://www.youtube.com/watch?v=7EmboKQH8lM&t=2108s
