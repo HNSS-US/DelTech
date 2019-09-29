@@ -45,6 +45,5 @@ must be of a floating-point data type.
 * This returns a remaider 15.0/declaredIntVariable since 15.0 is treated a floating-point number.
 
 
-##### References:
-[tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm "tutorialspoint")
-[tutorialspoint](https://www.tutorialspoint.com/cprogramming/c_data_types.htm "tutorialspoint")
+##### References:  
+C++ Data Types[tutorialspoint](https://www.tutorialspoint.com/cplusplus/cpp_data_types.htm "tutorialspoint")  
