@@ -19,3 +19,35 @@
    * Linker  
    .. Takes object files, links them into an executable program.  
    .. Ensures that all of the promises to the compilerr are kept.  
+   
+   
+ ####  Compile in VS Code: tasks.json  
+   6.3 Make the following changes to file ([see](Visual-Studio-Code/C++/Compiling-C++In-VSC.md "HNSS-US") for explaination)
+   ```
+      {
+           // See https://go.microsoft.com/fwlink/?LinkId=733558
+           // for the documentation about the tasks.json format
+           "version": "2.0.0",
+           "tasks": [
+               {
+                   // the task needs a name
+                   "label": "build",
+                   "type": "shell",
+                   // VSC does not ship with a compiler
+                   // select the compiler you want to use.
+                   "command": "g++ -g myprogram.cpp -o myprogram",
+                   // multiple build tasks are possible
+                   // this sets as default
+                   "group": {
+                       "kind": "build",
+                       "isDefault": true
+                   },
+                   // regex definitions tells VSC
+                   // how to interpret compiler warnings.
+                   // Using this task will display warnings in the
+                   // [PROBLEMS] window of VSC.
+                   "problemMatcher":"$gcc" 
+               }
+           ]
+       }
+    ```
