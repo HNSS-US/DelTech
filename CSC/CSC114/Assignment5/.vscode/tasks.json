@@ -1,0 +1,26 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // the task needs a name
+            "label": "build",
+            "type": "shell",
+            // VSC does not ship with a compiler
+            // select the compiler you want to use.
+            "command": "g++ -g test2.cpp -o test2",
+            // multiple build tasks are possible
+            // this sets as default
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            // regex definitions tells VSC
+            // how to interpret compiler warnings.
+            // Using this task will display warnings in the
+            // [PROBLEMS] window of VSC.
+            "problemMatcher":"$gcc" 
+        }
+    ]
+}
