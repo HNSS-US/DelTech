@@ -41,41 +41,51 @@
 using namespace std;
 
 //LOCAL FUNCTION PROTOTYPE
-void   doIntro(); //Introduce the program's purpose
+void   outputIntro(); //Introduce the program's purpose
 int    getNumberRooms(); //Get number of rooms to be painted 
 double getRoomSqrFt(int passNumberRooms);//For each room, prompt user for the square footage
-double getPaintPrice(); //price of paint
-double calcPaint(double passSqrFeet); //calculate cost of paint
-double calcLabor(double passSqrFeet); //calculate labor cost
+double getPaintPrice(double passMinPaintPrice); //price of paint
+//print itemized estimate
+void   outputEstimate(double passGallonsPaint, double passHoursLabor,
+                      double passCostOfPaint, double passCostOfLabor);
+
 //OVERLOADED FUNCTIONS
 bool doValidate(double passInput); //validate input paint price >= 10.00
 bool doValidate(int passInput); //validate input  > 0
 
-
-int main(int argc, char const *argv[])
+int main()
 {                      
     //VARIABLES LOCAL TO MAIN
-    const double                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            e LABOR_CST_HOUR = 25.00,     //labor fixed at $25.00
-                 PAINT_SQR_FOOT = 1.0/110.0, //paint 1gal/110sq_ft
-                 HOURS_SQR_FOOT = 8.0/110.0; //hours 8hrs/110sq_ft
-    
-    double costOfPaint   = 0.00,
-           totalSqrFoot  = 0.00;
+    const double LABOR_CST_HOUR  = 25.00,     //labor fixed at $25.00
+                 PAINT_SQR_FOOT  = 1.0/110.0, //paint 1gal/110sq_ft
+                 MIN_PAINT_PRICE = 10.00,     //minmum price for paint
+                 LABOR_SQR_FOOT  = 8.0/110.0; //hours 8hrs/110sq_ft
+
+    double priceOfPaint  = 0.00,
+           costOfLabor   = 0.00,
+           costOfPaint   = 0.00,
+           totalSqrFoot  = 0.00,
+           gallonsPaint  = 0.00,
+           hoursLabor    = 0.00;
 
     int sqrFeetRooms = 0, //Square feet of rooms to paint
         numberRooms  = 0;  
 
-    cout << fixed << setprecision(2);
-    doIntro();
-    numberRooms = getNumberRooms();
-    costOfPaint = getPaintPrice();
-    cout << "Price of paint " << costOfPaint << " number of rooms " << numberRooms << endl;
-    //getRoomSqrFt(numberRooms);
+    outputIntro();
+    numberRooms  = getNumberRooms();
+    priceOfPaint = getPaintPrice(MIN_PAINT_PRICE);
+    totalSqrFoot = getRoomSqrFt(numberRooms);
+    gallonsPaint = PAINT_SQR_FOOT * totalSqrFoot;
+    hoursLabor   = LABOR_SQR_FOOT * totalSqrFoot;
+    costOfPaint  = gallonsPaint * priceOfPaint;
+    costOfLabor  = hoursLabor * LABOR_CST_HOUR;
+    outputEstimate(gallonsPaint, hoursLabor, costOfPaint, costOfLabor);
+    //end main
     return 0;
 }
 
 //LOCAL FUNCTION DECLARATIONS
-void   doIntro()
+void   outputIntro()
 {//Introduce the program's purpose
     cout << setfill('*') <<  setw(60) << '*' << endl;
     cout << "This program takes in the number of rooms to be painted." << endl;
@@ -126,40 +136,24 @@ double getRoomSqrFt(int passNumberRooms)
     return totalSqrFootage;
 }
 
-double getPaintPrice()
+double getPaintPrice(double passMinPaintPrice)
 {//price of paint
     double paintPrice = 0.0;
+    bool   cont;
+
     do
     {
+        cont = true;
         cout << "Enter the price per gallon of the paint:\n";
         cin >> paintPrice;
 
-        if (!(doValidate(paintPrice))) {
+        if (paintPrice < passMinPaintPrice) {
             cout << "Invalid price. Must be greater or equal to $10.00\n";
+            cont = false;
         }
-    } while (!(doValidate(paintPrice)));
+    } while (!cont);
     
     return paintPrice;
-}
-
-double calcPaint(double passSqrFeet)
-{//calculate cost of paint
-
-}
-
-double calcLabor(double passSqrFeet)
-{//calculate labor cost
-
-}
-
-bool doValidate(double passInput)
-{
-    //Ensure non-negative integer values
-    if (passInput >= 10.00){
-        return  true;
-    }else {
-        return false;
-    }
 }
 
 bool doValidate(int passInput)
@@ -170,4 +164,20 @@ bool doValidate(int passInput)
     }else {
         return false;
     }
+}
+
+void outputEstimate(double passGallonsPaint, double passHoursLabor,
+                      double passCostOfPaint, double passCostOfLabor)
+{//print itemized estimate
+    cout << fixed << setprecision(2);
+    cout << setfill('*') <<  setw(55) << '*' <<  endl;
+    cout << "Estimate of Costs for Painting:\n";
+    cout << setfill('*') <<  setw(55) << '*' <<  endl;
+    cout << "The number of gallons of paint required:" << passGallonsPaint << " gallons.\n";
+    cout << "The hours of labor required:" << passHoursLabor << " hours.\n";
+    cout << "The cost of paint:$" << passCostOfPaint << endl;
+    cout << "The labor charges:$" << passCostOfLabor << endl;
+    cout << setfill('=') <<  setw(55) << '=' <<  endl;
+    cout << "The total cost of the paint job $:" << (passCostOfPaint + passCostOfLabor) << endl;
+    cout << setfill('=') <<  setw(55) << '=' <<  endl; 
 }
